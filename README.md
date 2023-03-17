@@ -4,10 +4,10 @@ This repo includes some of my works involving visualization.
 ### Napoleon's Russian Campaign Visualization (2023)
 Visualization of Napoleon's Russian Campaign based on the Minard's map, using troop, city nad temperature data. 
 
-
-Original|My visualization
+[]()  | []()
 -|-
-![Napoleon original](./pic/Minard.png)|![Napoleon](./pic/napoleon.png)
+Original|![Napoleon original](./pic/Minard.png)
+My visualization|![Napoleon](./pic/napoleon.png)
 
 ### UK Road Accidents Visualization (2023)
 Visualization of UK road accidents based 2018 data.
