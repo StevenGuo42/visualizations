@@ -14,6 +14,18 @@ Visualization of UK road accidents based 2018 data.
 <img src="./pic/UK_acc.png" width="75%" height="auto"/>
 
 
+### X-Ray Image Reconstruction post-processing (2022)
+X-ray image processing, including auto contrast adjustment, image denoising, auto tone mapping, and edge enhancement. 
+
+
+[]()  | []()   
+-|-
+![](./pic/xray_1.png)|![](./pic/xray_2.png)
+![](./pic/xray_3.png)|![](./pic/xray_4.png)
+![](./pic/xray_5.png)|![](./pic/xray_6.png)
+
+
+
 ### Image Recovery Using Compressive Sensing (2022)
 This project uses inverse discrete cosine transform and
 orthogonal matching pursuit to recover a “damaged” image. The
