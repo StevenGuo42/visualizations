@@ -25,6 +25,8 @@ Recovered image with different sample size|Sample size vs. computation time
 ![Recovered image with different sample size](./pic/boat_final.png)|![Sample size vs. computation time](./pic/boat_time.png)
 Sample size vs. MSE for different methods|Entropy vs. MSE for different sample size
 ![Sample size vs. MSE for different methods](./pic/boat_MSE.png)|![Entropy vs. MSE for different sample size](./pic/boat_entropy.png)
+
+
 Findings: as the sample size increase, the computation cost would increase exponentially and the MAE would decrease exponentially in general; as the entropy of each block increase, the MSE increases exponentially and the trial with lower sample size would always have higher MSE in general. This also mean the more complex images (signals) are harder to recover from sparse samples.
 
 
@@ -49,11 +51,13 @@ Data: object moving left or right on screen; 2 classes, 120 trails each, 204 cha
 []()|Imagined|Overt
 -|-|-
 Penalty Weight $\lambda$ vs. Accuracy|![Penalty Weight $\lambda$ vs. Accuracy](./pic/1lam.jpg)|![Penalty Weight $\lambda$ vs. Accuracy](./pic/2lam.jpg)
-ROC curve for each fold|![ROC curve](./pic/1roc.jpg)|![ROC curve](./pic/2roc.jpg)
+[ROC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#ROC_space) curve for each fold|![ROC curve](./pic/1ROC.jpg)|![ROC curve](./pic/2ROC.jpg)
 Weights $W$ and magnitude (most sig 5 ch are marked)|![weights $W$ and its magnitude](./pic/1W5.jpg)|![weights $W$ and its magnitude](./pic/2W5.jpg)
 2D plot of the magnitude of weights $W$|![2D plot of the magnitude of weights $W$](./pic/1Wplot.jpg)|![2D plot of the magnitude of weights $W$](./pic/2Wplot.jpg)
 []()|Plot of 5 most significant channels of weights $W$|Search the optimal $\lambda$
 []()|![Plot of 5 most significant channels weights $W$](./pic/3Wplot.jpg)|![Search the optimal $\lambda$](./pic/6ROC.jpg)
+
+
 Findings: Classification accuracy using overt data is only 3.6% higher than imagined data at 94.9% with $\lambda = 10$; by using grid search the optimal $\lambda$ is found to be around 6.5; the most significant channels for overt data are channel 137, 141, and 155, which means they can be strongly related to vision and direction
 
 
